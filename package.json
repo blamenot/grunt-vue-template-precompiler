@@ -1,0 +1,29 @@
+{
+  "name": "grunt-vue-template-precompiler",
+  "version": "0.0.1",
+  "description": "Creates js files containing render function used in vue js components. Source files are vue template syntax html files",
+  "main": "tasks/precompile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blamenot/grunt-vue-template-precompiler.git"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "author": "blamenot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blamenot/grunt-vue-template-precompiler/issues"
+  },
+  "homepage": "https://github.com/blamenot/grunt-vue-template-precompiler#readme",
+  "dependencies": {
+    "vue-template-compiler": "^2.5.17"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
